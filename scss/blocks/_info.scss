@@ -1,0 +1,283 @@
+.info{
+    display: flex;
+    margin-left: 85px;
+}
+
+.info__cofee{
+    margin-right: 125px;
+}
+
+.info__Preferences{
+    width: 255px;
+}
+
+.info__link{
+    display: block;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    padding: 24px 0 24px 0;
+    border-bottom: 1px solid  #83888F;
+
+    &:hover{
+        color:#333D4B;
+        transition: 0.5s;
+    }
+
+    &:hover  .info__number {
+        color:#0E8784;
+    }
+}
+
+.info__numbers{
+    margin-right: 28.5px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color:#0E8784;
+}
+
+.info__number{
+    margin-right: 28.5px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+
+
+.info__links{
+    display: block;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding: 24px 0 24px 0;
+    border-bottom: 1px solid  #83888F;
+}
+
+.info5{
+    border: none;
+}
+
+.info__title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+}
+
+.info__box{
+    width: 730px;
+
+}
+
+.info__pic{
+    display: flex;
+}
+
+.info__image{
+    width: 18px;
+    height: 12px;
+    margin-top: 52px;
+    margin-left: 82px;
+}
+
+.info__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__quote{
+    display: block;
+    width: 228px;
+    height: 250px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    margin-bottom: 88px;
+    padding: 32px 28px 84px 28px;
+}
+
+.info__quote:hover{
+    background-color:#FDD6BA;
+    transition: 0.5s;
+}
+
+.info__radio:checked ~ .info__quote {
+    background-color:#0E8784;
+}
+
+.info__radio:checked ~ .info__quote > .info__lead{
+    color: #fff;
+}
+
+.info__radio:checked ~ .info__quote > .info__text{
+    color: #fff;
+}
+
+.info__lead{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding-bottom: 24px;
+}
+
+.info__text{
+    font-family: 'Barlow';
+    color: #333D4B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.info__subject{
+    display: flex;
+    width: 730px; 
+}
+
+.info__span{
+    display: flex;
+    width: 700px;
+    margin-bottom: 88px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F; 
+}
+
+.info__small{
+    display: flex;
+}
+
+.info__znak{
+    width: 18px;
+    height: 12px;
+    margin-top: 60px;
+    margin-left: 258px;
+}
+.info__small{
+    display: flex;
+}
+
+.info__znak1{
+    width: 18px;
+    height: 12px;
+    margin-top: 60px;
+    margin-left: 132px;
+}
+
+.info__small{
+    display: flex;
+}
+
+.info__znak2{
+    width: 18px;
+    height: 12px;
+    margin-top: 60px;
+    margin-left: 202px;
+}
+
+
+.info__small{
+    display: flex;
+}
+
+.info__znak3{
+    width: 18px;
+    height: 12px;
+    margin-top: 60px;
+    margin-left: 76px;
+}
+
+
+
+.info__order{
+    background-image: url("../../images/darck.png");
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 208px;
+    margin-bottom: 31px;
+}
+
+.info__project{ 
+    margin:0 0 8px 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.info__drink{
+    width: 602px;
+    padding-top: 51px;
+    padding-left: 64px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.info__drink{
+    width: 634px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.info__dash{
+    color:#0E8784;
+}
+
+.info__knob{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 168px;
+}
+
+.info__button{
+    padding: 15px 35px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #0E8784;
+    color: #FEFCF7;
+    border: none;
+    border-radius: 6px;
+    transition: 0.8s;
+}
+
+.info__button:hover{
+    background-color:#66D2CF;
+}

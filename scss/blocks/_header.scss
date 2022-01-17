@@ -1,0 +1,33 @@
+.header__nav{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .list__item + .list__item{
+    margin-left: 32px;
+  }
+  
+  .list__link{
+      text-decoration: none;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #83888F;
+  }
+
+  .list__link:hover{
+      color: #333D4B;
+  }
+  
